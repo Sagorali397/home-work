@@ -1,0 +1,139 @@
+
+body {
+    font-family: Open Sans,Arial,sans-serif;
+    background-color: #666;;
+	padding:0;
+	margin:0;
+}
+
+/*--start---quality--*/
+
+.quality{
+	background-image:url(pic/rrr.jpg);
+	overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overly{
+	background: linear-gradient(#474ab654 0%,#666666b0 100%);
+	padding:100px 100px 2px 100px;
+}
+.container{
+	width:100%;
+	margin:auto;
+}
+.food{
+    width: 80%;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.food h1{
+    font-weight: 500;
+    color: #fff;
+    font-size: 73px;
+	margin-bottom: 56px;
+	text-transform: capitalize;
+}
+.food p{
+    color: cornsilk;
+    font-size: 17px;
+    line-height: 32px;
+	margin-bottom: 61px;
+}
+.food h2{
+    color: #fff;
+    margin-top: 80px;
+    font-size: 36px;
+}
+.btn{
+    color: #fff;
+    padding: 7px 26px 8px 26px;
+    border: 2px solid #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:#;
+    transition: 1s all;
+}
+.btn:hover{
+    background-color:#4d4e4d82;
+    transition: 1s all;
+}
+.btn-2{
+	margin: 10px;
+    color: #fff;
+    padding: 7px 26px 8px 26px;
+    border: 2px solid #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:#C39D63;
+    transition: 1s all;
+}
+/*--end---quality--*/
+
+/*--start---royel--*/
+
+.royel{background:#fff;
+	overflow:hidden;
+	padding:100px;	
+}
+.jump{
+	width:50%;
+	float:left;
+}
+.jump img {
+    display: block;
+    margin: auto;
+}
+.jump h5{
+	color:#C5BFBF;
+	font-size: 15px;
+}
+.jump hr{
+    margin-left: 0px;
+    width: 52px;
+    height: 3px;
+}
+.jump h1 {
+    color: #1F1F1F;
+    font-size: 50px;
+    font-weight: 500;
+}
+.jump p{
+    color: #9393AF;
+    line-height: 30px;
+	letter-spacing: 1px;
+}
+/*---end---royel--*/
+
+/*--start---quality--*/
+@media(max-width:990px){
+	.food{
+    width: 100%;
+    
+}
+	
+}
+
+/*--end---quality--*/
+
+/*--start---royel--*/
+@media(max-width:990px){
+	
+	.jump{
+	width:100%;
+	float:none;
+}
+.jump img{
+    display:inline-block;
+    margin:left;
+}
+}
+ {
+    display:inline-block;
+    margin:left;
+}
+/*--end---royel--*/
